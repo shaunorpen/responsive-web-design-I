@@ -39,3 +39,26 @@ header nav a {
     color: grey;
     margin-right: 61px;
 }
+
+.callToAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twoColumns {
+    display: flex;
+}
+
+.fullWidth img {
+    width: 100%;
+}
+
+.threeColumns {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
