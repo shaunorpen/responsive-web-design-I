@@ -67,6 +67,12 @@ header nav a {
     text-align: center;
 }
 
+@media (max-width: 800px) {
+    .jumbotronRight {
+        display: none;
+    }
+}
+
 .jumbotronLeft h1 {
     font-size: 4.5em;
     margin: 0px;
