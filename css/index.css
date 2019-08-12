@@ -44,21 +44,70 @@ header nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.jumbotronLeft {
+    display:flex;
+    flex-direction: column;
+    margin-left: 125px;
+    text-align: center;
+}
+
+.jumbotronLeft h1 {
+    font-size: 4.5em;
+    margin: 0px;
+    line-height: 1em;
+}
+
+.jumbotronLeft a {
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid black;
+    width: 175px;
+    align-self: center;
+    margin-top: 10px;
 }
 
 .twoColumns {
     display: flex;
+    padding-top: 22px;
+    line-height: 1.2em;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 1em;
 }
 
 .fullWidth img {
     width: 100%;
+    padding-bottom: 10px;
 }
 
 .threeColumns {
     display: flex;
+    line-height: 1.2em;
+    padding-bottom: 50px;
+}
+
+.threeColumn {
+    padding-right: 20px;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
+    line-height: 1.2em;
+    padding-bottom: 22px;
+}
+
+.contact address {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
 }
