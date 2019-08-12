@@ -96,6 +96,11 @@ header nav a {
         padding: 15px;
         border-top: 1px solid black;
         width: 100%;
+        text-align: center;
+    }
+
+    header nav a:last-of-type {
+        border-bottom: 1px solid black;
     }
 }
 
@@ -167,6 +172,12 @@ header nav a {
     padding-bottom: 25px;
 }
 
+@media (max-width: 500px) {
+    .twoColumns {
+        flex-direction: column;
+    }
+}
+
 h2 {
     font-size: 1em;
 }
@@ -181,6 +192,12 @@ h2 {
     line-height: 1.2em;
     padding-bottom: 50px;
     border-bottom: 2px solid black;
+}
+
+@media (max-width: 500px) {
+    .threeColumns {
+        flex-direction: column;
+    }
 }
 
 .threeColumn {
